@@ -27,6 +27,7 @@ public class EnemyController : CharacterController
     public override void StartOfTurn()
     {
         base.StartOfTurn();
+        StartCoroutine(Move((Vector2)player.transform.position));
         //StartCoroutine(TurnLogic());
     }
 

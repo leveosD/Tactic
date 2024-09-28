@@ -44,7 +44,7 @@ public class Weapon : MonoBehaviour
                 }
             };
         }*/
-        buttons = buttonList.GetComponentsInChildren<GameObject>();
+        //buttons = buttonList.GetComponentsInChildren<GameObject>();
         availableSkills = new bool[skillist.Count];
         for(int i = 0; i < skillist.Count; i++)
         {

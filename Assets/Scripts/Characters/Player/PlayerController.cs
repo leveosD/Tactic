@@ -45,7 +45,8 @@ public class PlayerController : CharacterController
                 //w.transform.position += new Vector3(0, 150, 0);
             }
         };
-        CurrentWeapon = weapons[0];
+        if (weapons.Count > 0)
+            CurrentWeapon = weapons[0];
         //Start from character controller
         points = 3;
         steps_per_action = 5;
