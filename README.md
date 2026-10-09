@@ -10,7 +10,7 @@ A 2D side-view prototype of a turn-based combat system developed in Unity.
 
 * **Unity**
 * **C#**
-* **A* Pathfinding** — pathfinding for units
+* **A\* Pathfinding** — pathfinding for units
 * **Addressables** — asset management and loading
 
 ## Project Overview
